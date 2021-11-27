@@ -1,0 +1,144 @@
+/* Keeping all variables */
+
+:root {
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --divider: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --soft-blue-text: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+}
+
+
+/* Attributaion */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* Basic Common Settings */
+
+* {
+    font-family: 'Outfit';
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+
+/* Actual Styles start here */
+
+.bg_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;
+    width: 100vw;
+    background: var(--main-bg);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--card-bg);
+    width: 300px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.card_image {
+    align-self: center;
+}
+
+.card_image img {
+    border-radius: 7px;
+    height: 300px;
+}
+
+.Header {
+    margin-top: 15px;
+}
+
+.Header h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.Description {
+    margin-top: 15px;
+}
+
+.Description p {
+    color: var(--soft-blue-text);
+}
+
+.Info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#Amount {
+    /* padding: 5px 0px; */
+    display: flex;
+}
+
+#Amount img {
+    align-self: center;
+    height: 18px;
+    margin-right: 10px;
+}
+
+#Amount p {
+    font-weight: 400;
+    align-self: center;
+    color: var(--cyan);
+}
+
+#Time {
+    /* padding: 5px 0px; */
+    display: flex;
+}
+
+#Time img {
+    align-self: center;
+    height: 18px;
+    margin-right: 10px;
+}
+
+#Time p {
+    align-self: center;
+    color: var(--soft-blue-text);
+}
+
+.dashed {
+    margin-top: 30px;
+}
+
+.creator {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.creator img {
+    height: 40px;
+}
+
+.creator p {
+    font-weight: 300;
+    color: var(--soft-blue-text);
+}
