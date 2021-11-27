@@ -27,10 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop Version
+ - Desktop Version
+
+
 ![](design/screenshot-final.png)
 
-Mobile Version
+ - Mobile Version
+
+
 ![](design/screenshot-final-mobile.png)
 ## My process
 
