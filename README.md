@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- Basic HTML5 Markup
 - CSS custom properties
 - Flexbox
 
